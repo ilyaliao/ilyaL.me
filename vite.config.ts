@@ -50,7 +50,6 @@ export default defineConfig({
     VueRouter({
       extensions: ['.vue', '.md'],
       routesFolder: 'pages',
-      logs: true,
       extendRoute(route) {
         const path = route.components.get('default')
         if (!path)
