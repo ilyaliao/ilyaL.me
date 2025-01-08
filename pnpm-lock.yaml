@@ -69,6 +69,9 @@ importers:
       '@unhead/vue':
         specifier: ^1.11.14
         version: 1.11.14(vue@3.5.13(typescript@5.7.2))
+      '@unocss/preset-web-fonts':
+        specifier: ^0.65.4
+        version: 0.65.4
       '@unocss/reset':
         specifier: ^0.65.3
         version: 0.65.3
@@ -1218,6 +1221,9 @@ packages:
   '@unocss/core@0.65.3':
     resolution: {integrity: sha512-xYkJ63lIadL6KqvGcaE2fFeLvo6rC1F+e+R9EFn0Aj0ArMRhiltZk8vvLFHP7iYjjdTdqDkAr/7IdrTosTo8Pg==}
 
+  '@unocss/core@0.65.4':
+    resolution: {integrity: sha512-a2JOoFutrhqd5RgPhIR5FIXrDoHDU3gwCbPrpT6KYTjsqlSc/fv02yZ+JGOZFN3MCFhCmaPTs+idDFtwb3xU8g==}
+
   '@unocss/extractor-arbitrary-variants@0.65.3':
     resolution: {integrity: sha512-ZVGCjOZuU8daGxY7MUJQrI7aVKzZi1llRk53QgEUTU1q60X/fi8M2+A9mwEgG9MBVHBdsuvxqZ9Dp79IktSyLw==}
 
@@ -1250,6 +1256,9 @@ packages:
 
   '@unocss/preset-web-fonts@0.65.3':
     resolution: {integrity: sha512-hDuDbZawPc7ebtNoYI5zKpqURjAH5lLKqVRwdQXQiJ2T8IfT246HkL6+pcpdjAkHy3oJDUxGwrD/tYFcu9fcdA==}
+
+  '@unocss/preset-web-fonts@0.65.4':
+    resolution: {integrity: sha512-UB/MvXHUTqMNVH1bbiKZ/ZtZUI5tsYlTYAvBrnXPO1Cztuwr8hJKSi4RCfI9g+YYtKHX4uYuxUbW5bcN85gmBQ==}
 
   '@unocss/preset-wind@0.65.3':
     resolution: {integrity: sha512-esptoeJEN1QZEXwMIU3OXumSi3TEbIXZg1SuuUYqOWXzldxANsfXSMdHtsiXUSMNwNsfmQl4XfBlGNYYK/7eyg==}
@@ -4635,6 +4644,8 @@ snapshots:
 
   '@unocss/core@0.65.3': {}
 
+  '@unocss/core@0.65.4': {}
+
   '@unocss/extractor-arbitrary-variants@0.65.3':
     dependencies:
       '@unocss/core': 0.65.3
@@ -4697,6 +4708,11 @@ snapshots:
   '@unocss/preset-web-fonts@0.65.3':
     dependencies:
       '@unocss/core': 0.65.3
+      ofetch: 1.4.1
+
+  '@unocss/preset-web-fonts@0.65.4':
+    dependencies:
+      '@unocss/core': 0.65.4
       ofetch: 1.4.1
 
   '@unocss/preset-wind@0.65.3':
